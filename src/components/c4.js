@@ -1,7 +1,19 @@
 import React from "react";
-import C3 from "./c3";
-function C4 () {
+import { Name } from "./c1";
 
+function C4() {
+  return (
+    <>
+     <Name.Consumer>{(nam)=>{
+            return(<>
+                <h3>Hello from {nam}</h3>
+                
+                
+                </>)
+
+     }}</Name.Consumer>
+    </>
+  );
 }
 
-export default C4 ;
+export default C4;

@@ -1,7 +1,11 @@
 import React from "react";
-import C2 from "./c2";
-function C3 () {
-
+import C4 from "./c4";
+function C3() {
+  return (
+    <>
+      <C4></C4>
+    </>
+  );
 }
 
-export default C3 ;
+export default C3;
